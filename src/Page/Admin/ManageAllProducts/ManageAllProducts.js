@@ -48,7 +48,7 @@ const ManageAllProducts = () => {
     }
 
 
-    // const status = "apporved";
+
     const handleOrderId = (id) => {
         setOrderId(id);
         console.log(id);
@@ -118,7 +118,7 @@ const ManageAllProducts = () => {
                                                     </select>
 
                                                     <button type='submit' className='btn btn-primary btn-sm'>Submit</button>
-                                                    {/* <input type="submit" /> */}
+
                                                 </form>
                                             </td>
 

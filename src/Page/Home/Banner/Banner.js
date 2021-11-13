@@ -4,7 +4,7 @@ import './Banner.css'
 const Banner = () => {
 
 
-
+    // Banner Section Start
     return (
         <div className='text-center my-5'>
             <div className=' banner '>

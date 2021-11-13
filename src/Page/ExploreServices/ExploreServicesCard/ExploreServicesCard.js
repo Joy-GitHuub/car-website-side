@@ -6,6 +6,7 @@ import './ExploreServicesCard.css'
 const ExploreServicesCard = ({ services }) => {
     const { _id, name, image, description, charge } = services;
 
+    // ExploreServices Card Section
 
 
     return (

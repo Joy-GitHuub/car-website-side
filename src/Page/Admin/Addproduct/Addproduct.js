@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import './Addproduct.css'
 
 const Addproduct = () => {
+    // Add Products Section
 
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 

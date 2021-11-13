@@ -10,6 +10,7 @@ const Header = () => {
 
     const logo = 'https://smartdata.tonytemplates.com/caleader/wp-content/themes/caleader/assets/images/logo-dark.svg';
 
+    // Nav Bar Section 
     return (
         <div>
             <Navbar fixed="top" className="parent-nav shadow-lg" expand="lg">

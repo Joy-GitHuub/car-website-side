@@ -8,6 +8,7 @@ const UserReviewCard = ({ userReview }) => {
     console.log();
     return (
         <div>
+            {/* User Review Card */}
             <div className="card" >
                 <div className="card-body">
                     <h6 className="card-title"><span style={{ fontSize: 10 }} className=' text-primary'><i className="fas fa-user fs-5"></i> &nbsp;&nbsp;{userName}</span></h6>

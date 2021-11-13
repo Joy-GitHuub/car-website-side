@@ -3,12 +3,14 @@ import login from '../../../images/login.jpg'
 import { Link, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
+// Register Page Start
 const Register = () => {
 
     const [loginData, setLoginData] = useState({});
     const history = useHistory();
     // const location = useLocation();
 
+    // User Auth
     const { user, registerUser, isLoading, error } = useAuth();
 
     const handleOnBlur = e => {
@@ -19,7 +21,7 @@ const Register = () => {
         setLoginData(newLoginData);
 
     }
-
+    // Password Match
     const handleLoginSubmit = e => {
 
         if (loginData.password !== loginData.password2) {
@@ -35,7 +37,7 @@ const Register = () => {
 
     return (
         <div>
-
+            {/* Register Section */}
             <div className='row row-cols-1 row-cols-md-3 g-4 container  mx-auto trending-bg  py-5' >
 
                 <div className='col-lg-7 col-md-6 col-12 mt-5 signInForm'>

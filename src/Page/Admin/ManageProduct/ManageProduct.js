@@ -39,7 +39,7 @@ const ManageProduct = ({ product, id }) => {
 
         <div>
 
-
+            {/* Mamage Product Card */}
 
 
             <div>

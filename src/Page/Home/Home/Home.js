@@ -10,6 +10,7 @@ import UserReview from '../UserReview/UserReview';
 const Home = () => {
     return (
         <div>
+            {/* ALL Home Page Section */}
             <Header></Header>
             <Banner></Banner>
             <Services></Services>

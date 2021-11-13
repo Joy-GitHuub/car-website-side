@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const NotFound = () => {
     return (
+        // Not Found Page
         <div className="text-center p-5">
             <img height='400px' src={img} alt="" />
             <br />

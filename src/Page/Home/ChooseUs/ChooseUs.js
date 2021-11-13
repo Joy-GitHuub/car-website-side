@@ -2,8 +2,11 @@ import React from 'react';
 import './ChooseUs.css'
 
 const ChooseUs = () => {
+    // Choose Us Section Start
+
     return (
         <div className='my-5'>
+            {/* Heading  */}
             <h3 className='find-out text-center'>WHY CHOOSE-US <br /> ------------------------------</h3>
 
 

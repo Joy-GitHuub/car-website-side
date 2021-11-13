@@ -18,9 +18,12 @@ function App() {
   return (
 
     <div>
+      {/* Auth Provider  */}
       <AuthProvider>
+        {/* Browser Router */}
         <BrowserRouter>
           <Switch>
+            {/* All Page   */}
             <Route exact path='/'>
               <Home></Home>
             </Route>
@@ -42,15 +45,15 @@ function App() {
             <PrivateRoute path='/dashboard'>
               <Dashboard></Dashboard>
             </PrivateRoute>
-            {/* <PrivateRoute path='/addproduct'>
-              <Addproduct></Addproduct>
-            </PrivateRoute> */}
+            {/* Login Route */}
             <Route path='/login'>
               <Login></Login>
             </Route>
+            {/* Register Route */}
             <Route path='/register'>
               <Register></Register>
             </Route>
+            {/* Not Found Page */}
             <Route path='*'>
               <NotFound></NotFound>
             </Route>

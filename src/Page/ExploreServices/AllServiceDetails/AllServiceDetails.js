@@ -8,6 +8,7 @@ import './AllServiceDetails.css'
 import useAuth from '../../../hooks/useAuth';
 
 const AllServiceDetails = () => {
+    // All Services Details Section
     const { id } = useParams();
 
     const [services, setServics] = useState([]);
@@ -77,8 +78,7 @@ const AllServiceDetails = () => {
                             <input defaultValue={services.name} {...register("productName", { required: true })} />
                             <br />{errors.productName && <span className="text-danger">This field is required</span>}<br />
 
-                            {/* <input type="date" placeholder="Date" {...register('BookingDate', { required: true })} />
-                            <br />{errors.BookingDate && <span className="text-danger">This field is required</span>}<br /> */}
+
 
                             <input placeholder="Address" defaultValue="" {...register("address", { required: true })} />
                             <br /> {errors.address && <span className="text-danger">This field is required</span>}<br />

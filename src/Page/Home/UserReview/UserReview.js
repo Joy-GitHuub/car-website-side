@@ -14,6 +14,7 @@ const UserReview = () => {
 
     console.log(userReviews)
     return (
+        // User Reviews Section Home Page
         <div className='text-center mb-5 container'>
 
             <h3 className='find-out mt-5'>Our User Reviews <br />---------------------------</h3>

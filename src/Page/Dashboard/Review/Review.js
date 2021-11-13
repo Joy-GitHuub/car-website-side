@@ -34,7 +34,7 @@ const Review = () => {
 
     return (
         <div>
-
+            {/* collecting User Review */}
             <div>
                 {/* ADD SERVICE Section */}
                 <div className="container mb-4 add-service">

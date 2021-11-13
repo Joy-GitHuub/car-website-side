@@ -5,6 +5,7 @@ import { Alert } from '@mui/material';
 
 import React, { useState } from 'react';
 
+// Make Admin Section
 const MakeAdmin = () => {
 
     const [email, setEmail] = useState('');
@@ -46,6 +47,7 @@ const MakeAdmin = () => {
             <h3 style={{ textAlign: 'center', margin: '50px 0px' }}>Make Admin This Web-Site</h3>
             <div style={{ marginLeft: 'auto', textAlign: 'center', marginTop: '30px' }}>
 
+                {/* Collecting Admin Email */}
                 <form onSubmit={handleAdminSubmit}>
                     <TextField sx={{ width: '50%', margin: 'auto', }}
                         type='email'

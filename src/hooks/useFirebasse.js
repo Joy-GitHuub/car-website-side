@@ -81,13 +81,14 @@ const useFirebasse = () => {
         return () => unsubscribe;
     }, [auth]);
 
-
+    // UseEffect 
     useEffect(() => {
         fetch(`https://intense-cove-94957.herokuapp.com/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
     }, [user.email])
 
+    // SaveUser Database
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
         fetch(`https://intense-cove-94957.herokuapp.com/users`, {

@@ -62,9 +62,11 @@ function Dashboard(props) {
             </div>
 
             <Divider />
+            {/* User & Admin Show That */}
             <Link style={{ textDecoration: 'none', textAlign: 'center', display: 'block', color: 'black' }} to='/'><Button color="inherit" sx={{ color: 'InfoText' }}><i className="fas fa-house-user"></i>&nbsp;Home</Button></Link>
             <Divider />
 
+            {/* All User Route */}
             {!admin && <Box>
                 <Link style={{ textDecoration: 'none', textAlign: 'center', display: 'block', color: 'black' }} to={`${url}/pay`}><Button color="inherit" sx={{ color: 'InfoText' }}><i className="far fa-credit-card"></i>&nbsp; Pay</Button></Link>
                 <Divider />
@@ -76,6 +78,8 @@ function Dashboard(props) {
                 <Divider />
             </Box>}
 
+
+            {/* All Admin Route */}
             {admin && <Box>
                 <Link style={{ textDecoration: 'none', textAlign: 'center', display: 'block', color: 'black' }} to={`${url}/manageProduct`} ><Button color="inherit" sx={{ color: 'InfoText' }}><i className="fab fa-product-hunt "></i>&nbsp; Manage All Orders</Button></Link>
                 <Divider />
@@ -87,6 +91,7 @@ function Dashboard(props) {
                 <Divider />
             </Box>}
 
+            {/* User And Admin Show Thaat */}
             <Link style={{ textDecoration: 'none', textAlign: 'center', display: 'block', color: 'black' }} to='/exploreService'><Button onClick={logOut} color="inherit" sx={{ color: 'InfoText' }}><i className="fas fa-sign-out-alt"></i>&nbsp; Log-Out</Button></Link>
             <Divider />
 
@@ -127,7 +132,7 @@ function Dashboard(props) {
                 sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
                 aria-label="mailbox folders"
             >
-                {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+
                 <Drawer
                     container={container}
                     variant="temporary"

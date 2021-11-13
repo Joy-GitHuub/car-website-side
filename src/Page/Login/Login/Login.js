@@ -4,6 +4,7 @@ import login from '../../../images/login.jpg'
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
+// Login Section
 const Login = () => {
 
     const [loginData, setLoginData] = useState({});
@@ -29,6 +30,7 @@ const Login = () => {
         signInWithGoogle(location, history);
     };
 
+    // Login Page 
     return (
         <div className=''>
 

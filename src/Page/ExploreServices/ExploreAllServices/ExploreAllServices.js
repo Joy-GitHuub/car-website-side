@@ -23,6 +23,7 @@ const ExploreAllServices = () => {
                         <span className="visually-hidden">Loading...</span>
                     </Spinner>
                 </div> : <div className="row row-cols-1 row-cols-md-3 g-4 my-5 mx-auto">
+                    {/* AllServices Map */}
                     {
                         allServices.map(services => <ExploreServicesCard
                             key={services.id}

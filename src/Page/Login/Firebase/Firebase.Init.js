@@ -7,3 +7,5 @@ const initializeFirebase = () => {
 }
 
 export default initializeFirebase;
+
+// Fire base Inti

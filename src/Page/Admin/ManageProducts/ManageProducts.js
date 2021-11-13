@@ -16,6 +16,7 @@ const ManageProducts = () => {
     return (
         <div >
             <h3>All Manage Products {products.length}</h3>
+            {/* Products Map */}
 
             <div className='row row-cols-1 row-cols-md-3 my-5 g-4 container'>
                 {

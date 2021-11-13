@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const ServicesCard = ({ services }) => {
     const { _id, name, description, charge, image } = services
     return (
+        // Home Page Service Card Component
         <div className=''>
             <Card className='mx-auto' style={{ width: '18rem', height: "100%" }}>
                 <Card.Img variant="top" className="image" style={{ height: '200px' }} src={image} />

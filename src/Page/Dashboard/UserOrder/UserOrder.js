@@ -34,6 +34,7 @@ const UserOrder = () => {
 
     }
 
+    // All User Order Section
     return (
         <div className="allOrder ">
             <div className="container my-5 my-booking">
@@ -61,7 +62,7 @@ const UserOrder = () => {
                         </div> :
 
                             <tbody className=''>
-
+                                {/* Map Orders */}
                                 {
                                     orders.map((order, index) => <>
 
