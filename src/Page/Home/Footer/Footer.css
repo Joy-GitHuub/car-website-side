@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    color: white;
+    
+}
+
+.footer-item {
+    margin-top: 5px !important;
+}
+
+.footer-item:hover {
+    color: rgb(13, 58, 20);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer img {
+    cursor: pointer;
+}

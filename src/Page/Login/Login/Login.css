@@ -1,0 +1,39 @@
+.login-btn {
+    border-radius: 25px;
+}
+
+.signInForm {
+    box-shadow: 10px 20px 20px lightgray;
+    padding-bottom: 5%;
+    border-radius: 15px;
+}
+
+.g-btn {
+    border: none;
+    background-color: #fff;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid rgb(121, 120, 120);
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin-top: 10px;
+  }
+
+.g-btn:hover {
+    box-shadow: 0 5px 15px gray;
+  }
+  
+  .fa-google {
+    background: conic-gradient(
+        from -45deg,
+        #ea4335 110deg,
+        #4285f4 90deg 180deg,
+        #34a853 180deg 270deg,
+        #fbbc05 270deg
+      )
+      73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }     

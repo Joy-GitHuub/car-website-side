@@ -1,0 +1,17 @@
+.navigation a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .navigation .selected {
+    border-bottom: 2px solid rgb(95, 46, 46);
+  }
+  
+  .parent-nav {
+    background-color: #fff;
+    z-index: 999;
+  }
+  

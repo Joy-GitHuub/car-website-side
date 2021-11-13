@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/X8sqFSs/2021-bmw-m5-competition-exterior-5.jpg",
+        "carName": "BMW",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 23577
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/rydcWSV/tesla.jpg",
+        "carName": "Tesla",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/T1w0141/Ferrari.jpg",
+        "carName": "Ferrari",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/gwVNZPV/2021-ford-evos-cn.webp",
+        "carName": "Ford",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/f19ByGp/jaguar.jpg",
+        "carName": "Jaguar",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/7QgHSKq/audi-a3-new-right-front-three-quarter1.jpg",
+        "carName": "Audi",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/5MdYChp/hundai.webp",
+        "carName": "Hyundai",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/VqvtKnX/2021-nissan-maxima-sv-3-5l-angular-rear-exterior-view-100780299-m.jpg",
+        "carName": "Nissan",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/JdHcdd4/Mercedes-Benz-SClass-Exterior-122263jpg.gif",
+        "carName": "Mercedes",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/M2DY97n/jeep.jpg",
+        "carName": "Jeep",
+        "description": "A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary.",
+        "price": 19577
+    }
+]
