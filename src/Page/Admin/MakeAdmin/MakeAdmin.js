@@ -49,6 +49,7 @@ const MakeAdmin = () => {
 
                 {/* Collecting Admin Email */}
                 <form onSubmit={handleAdminSubmit}>
+                    {/* Text Field Email */}
                     <TextField sx={{ width: '50%', margin: 'auto', }}
                         type='email'
                         label="Enter Your Email"

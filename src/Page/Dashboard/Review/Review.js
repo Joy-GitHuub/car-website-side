@@ -36,7 +36,7 @@ const Review = () => {
         <div>
             {/* collecting User Review */}
             <div>
-                {/* ADD SERVICE Section */}
+                {/* Review  Section Header */}
                 <div className="container mb-4 add-service">
                     <h2 className="text-center mb-3">Please Give You Review</h2>
                     <div className="form-container">
